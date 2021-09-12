@@ -31,6 +31,16 @@ body {
   height: 100%;
   border: 2px solid #fff;
   pointer-events: none;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .loader h2 {
